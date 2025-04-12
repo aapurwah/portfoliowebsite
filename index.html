@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apoorva's Dashavatara Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <script defer src="app.js"></script>
+ 
+  
+</head>
+<body>
+    <header class="hero-section">
+        <div class="profile-hero">
+            <img src="images\symbol2 (1).jpg" alt="Apoorva Aware Profile" class="profile-hero-img" />
+            <div class="hero-text">
+              <h1 class="hero-title">Apoorva Aware</h1>
+              <p class="hero-subtitle">Creative CSE Portfolio Inspired by Dashavatara ✨</p>
+            </div>
+          </div>
+          
+          
+        
+        </div>
+      </header>
+      
+      <div class="scroll-down">
+        ↓
+      </div>
+      
+      
+
+  <section class="avatars-section fade-in">
+    <h2>Explore My Journey Through the 10 Avatars</h2>
+    <div class="avatars-container">
+      <div class="avatar-card" onclick="showPopup('matsya')">
+        <img src="images\vishnu1.jpg" alt="Matsya" />
+        <p>Matsya</p>
+      </div>
+      <div class="avatar-card" onclick="showPopup('kurma')">
+        <img src="images\vishnu2.jpg" alt="Kurma" />
+        <p>Kurma</p>
+      </div>
+      <div class="avatar-card" onclick="showPopup('varaha')">
+        <img src="images\vishnu3.jpg" alt="Varaha" />
+        <p>Varaha</p>
+      </div>
+      <div class="avatar-card" onclick="showPopup('narasimha')">
+        <img src="images\vishnu4.jpg" alt="Narasimha" />
+        <p>Narasimha</p>
+      </div>
+      <div class="avatar-card" onclick="showPopup('vamana')">
+        <img src="images\vishnu5.jpg" alt="Vamana" />
+        <p>Vamana</p>
+      </div>
+      <div class="avatar-card" onclick="showPopup('parashurama')">
+        <img src="images\vishnu6.jpg" alt="Parashurama" />
+        <p>Parashurama</p>
+      </div>
+      <div class="avatar-card" onclick="showPopup('rama')">
+        <img src="images\vishnu7.jpg" alt="Rama" />
+        <p>Rama</p>
+      </div>
+      <div class="avatar-card" onclick="showPopup('krishna')">
+        <img src="images\vishnu8.jpg" alt="Krishna" />
+        <p>Krishna</p>
+      </div>
+      <div class="avatar-card" onclick="showPopup('buddha')">
+        <img src="images\vishnu9.jpg" alt="Buddha" />
+        <p>Buddha</p>
+      </div>
+      <div class="avatar-card" onclick="showPopup('kalki')">
+        <img src="images\vishnu10.jpg" alt="Kalki" />
+        <p>Kalki</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section fade-in">
+    <h2>About Me 👩‍💻</h2>
+    <div class="about-card">
+      <p>
+        Hi, I'm <strong>Apoorva Aware</strong> — a Computer Science Engineering student passionate about merging <strong>creativity</strong> with <strong>technology</strong>.
+      </p>
+      <p>
+        This portfolio draws inspiration from the ten avatars of Vishnu, symbolizing my own growth across different domains in CS — from data to design.
+      </p>
+      <p>
+        I believe in building projects that are not just functional, but also meaningful and rooted in a story — like Dashavatara, every step has a purpose.
+      </p>
+      <p>
+        Outside the code editor, you’ll find me exploring mythology, crafting stories, or designing something beautiful.
+      </p>
+    </div>
+  </section>
+  
+  
+  <section class="projects-section fade-in">
+    <h2>✨ My Projects</h2>
+    <div class="project-cards">
+      <div class="project-card">
+        <h3>🚗 Ola Dashboard</h3>
+        <p>Visualized ride data using Power BI to discover trends and optimize operations.</p>
+      </div>
+      <div class="project-card">
+        <h3>🤖 AI Resume Shortlister</h3>
+        <p>Used machine learning to rank resumes based on job descriptions and skill match.</p>
+      </div>
+      <div class="project-card coming-soon">
+        <div class="coming-badge">Coming Soon</div>
+        <h3>🧠 Mythology Quiz Game</h3>
+        <p>A playful journey through Hindu myths — test your knowledge!</p>
+      </div>
+  </section>
+  
+
+  <section class="contact-section fade-in">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:awareapoorva@gmail.com">awareapoorva@gmail.com</a></p>
+<p>LinkedIn: <a href="https://www.linkedin.com/in/apoorva-aware-9b742a215/" target="_blank">Visit My LinkedIn</a></p>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Apoorva Aware | Inspired by Dashavatara</p>
+  </footer>
+
+  <!-- Popups for Avatars -->
+  <div id="matsya-popup" class="popup">
+    <div class="popup-content">
+      <span onclick="closePopup('matsya')">&times;</span>
+      <h3>Matsya Avatar</h3>
+      <p>This avatar represents my foundational knowledge in computer science, like saving ancient scriptures - saving fundamental concepts.</p>
+    </div>
+  </div>
+  <div id="kurma-popup" class="popup">
+    <div class="popup-content">
+      <span onclick="closePopup('kurma')">&times;</span>
+      <h3>Kurma Avatar</h3>
+      <p>My journey into deep core subjects like OS and DBMS, as the Kurma supported the mountain for churning knowledge.</p>
+    </div>
+  </div>
+  <div id="varaha-popup" class="popup">
+    <div class="popup-content">
+      <span onclick="closePopup('varaha')">&times;</span>
+      <h3>Varaha Avatar</h3>
+      <p>Solving problems and pulling out meaningful data insights from chaos, just like Varaha saved Earth from darkness.</p>
+    </div>
+  </div>
+  <!-- Add similar popups for other avatars -->
+</body>
+</html>
